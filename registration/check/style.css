@@ -1,0 +1,58 @@
+contactContainer {
+    display: block;
+    text-align: center;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.contactContainer form {
+    display: inline-block;
+    margin: 30px auto;
+    text-align: left;
+
+}
+.contactContainer img {
+    display: inline-block;
+    width: 500px;
+
+}
+
+
+.buttonHolder {
+    text-align: center;
+}
+
+input[type=Text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 2px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=Submit] {
+    background-color: gray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    align-items: center;
+}
+
+input[type=Submit]:hover {
+    background-color: white;
+    color: gray;
+}
+
+.twoContainer{
+    display: flex;
+}    
+
+.twoContainer img {
+    width: 500px;
+}

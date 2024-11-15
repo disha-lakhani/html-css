@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e0d48a;
+    font-family: 'Poppins';
+
+}
+.main-container{
+    width: 800px;
+    height: 765px;
+    /* background-color: #f0e7c6; */
+    background: url(img2.jfif);
+
+    margin: auto;
+    /* padding: 10px; */
+    box-sizing: border-box;
+}
+.container{
+    /* background-color: #b2d225; */
+    background:url(img4.jfif);
+    background-size: cover;
+    height: 160px;
+    width: 800px;
+    /* margin: auto; */
+    margin-top: 10px;
+   border-bottom: 3px solid #d5c897;
+   
+}
+.site{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding-top: 35px;
+    padding-right: 100px;
+  
+}
+.site h3{
+    font-size: 30px;
+    font-weight: normal;
+}
+.site p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbar{
+    background-color: #e8e6cb;
+    width: 780px;
+    height: 37px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+ 
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2) ;   
+    /* border: 1px double #d9e79a; */
+}
+
+.navbar a{
+    color: rgb(8, 8, 207);
+    padding:9px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    float: left;
+    font-weight: bold;
+}
+.arrow{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    background-color: #d2d35e;
+    border: none;
+    /* text-align: center; */
+    text-decoration: none;
+    padding-top: 7px;
+}
+.arrow span{
+    padding-left: 13px;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+
+}
+.arrow i{
+    padding-left: 5px;
+    color: black;
+}
+.button{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.box{
+    height: 175px;
+    width: 200px;
+    background-color: #f0e8c3;
+    /* background-color: red; */
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.menu{
+    /* display: flex;
+    flex-direction: column; */
+    display: block;
+}
+.menu a{
+    /* text-decoration: none; */
+    color: #707058;
+    padding-left: 10px;
+    font-size: 12px;
+    padding-top: 3px;
+   font-weight: 800;
+}
+.menu i{
+    padding-right: 5px;
+}
+.content h4{
+    font-size: 12px;
+    font-weight: normal;
+    color: black;
+    opacity: 0.8;
+    padding: 10px;
+}
+.content p{
+    font-size: 12px;
+    color: black;
+    opacity: 0.9;
+    padding: 10px;
+}
+.container1 .left{
+
+    float: left;
+    width: 180px;
+}
+.container1 .right{
+    /* float: right; */
+    width: 620;
+    box-sizing: border-box;
+}
+.vertical-line {
+    width: 1px; 
+    background-color: black; 
+    height: auto;
+    opacity: 0.2;
+ 
+}
+.box1{
+   padding-left: 55px;
+   display: inline-block;
+   padding-top: 20px;
+   font-weight: normal;
+   font-size: 25px;
+   color: black;
+   opacity: 0.6;
+
+}
+.box2{
+    padding-left: 55px;
+    display: flex;
+    padding-top: 10px;
+   font-size: 13px;
+    font-weight: 400;
+}
+.bbox1{
+    padding-left: 55px;
+    display: inline-block;
+    padding-top: 20px;
+    font-weight: normal;
+    font-size: 25px;
+    color: black;
+    opacity: 0.7;
+}
+
+.bbox2{
+    padding-left: 55px;
+    display: flex;
+    padding-top: 10px;
+   font-size: 13px;
+    font-weight: 400;
+  
+}
+.bbox3{
+    padding-left: 55px;
+    display: flex;
+    padding-top: 10px;
+    height: 50px;
+    width: 150px;
+}
+.bbox3 button{
+    padding: 12px;
+    font-size: 11px;
+    background-color: #bddc27;
+    border:1px solid #707058;
+    font-weight: bold;
+}
+.column{
+    width: 50%;
+}
+.row{
+    display: flex;
+}
+.other{
+    display: flex;
+    padding-top: 20px;
+    font-weight: normal;
+    font-size: 25px;
+    color: black;
+    opacity: 0.7;
+    padding-left: 50px;
+
+    
+
+}
+.other2{
+    padding-left: 55px;
+    display: flex;
+    padding-top: 10px;
+   font-size: 13px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+.footer{
+    height: 35px;
+    width: 780px;
+    background-color: #cbde50;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2) ;  
+}
+.footer p{
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+}
